@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geminy</title>
+    <style>
+      body {
+          background-color: #1f2937;
+          color: #ffffff;
+          font-family: sans-serif;
+      }
+      .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 1rem;
+      }
+      .flex {
+          display: flex;
+          align-items: center;
+      }
+      .justify-between {
+          justify-content: space-between;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .py-4 {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+      }
+      .space-x-4 {
+          gap: 1rem;
+      }
+      .text-pink-500 {
+          color: #ec4899;
+      }
+      .w-6 {
+          width: 1.5rem;
+      }
+      .h-6 {
+          height: 1.5rem;
+      }
+      .rounded-full {
+          border-radius: 9999px;
+      }
+      .px-4 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+      }
+      .py-2 {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+      }
+      .bg-zinc-800 {
+          background-color: #1f2937;
+      }
+      .bg-pink-500 {
+          background-color: #ec4899;
+      }
+      .focus\:outline-none:focus {
+          outline: none;
+      }
+      .text-4xl {
+          font-size: 2.25rem;
+      }
+      .font-bold {
+          font-weight: bold;
+      }
+      .text-zinc-400 {
+          color: #9ca3af;
+      }
+      .text-sm {
+          font-size: 0.875rem;
+      }
+      .mb-6 {
+          margin-bottom: 1.5rem;
+      }
+      .space-x-2 {
+          gap: 0.5rem;
+      }
+      .grid {
+          display: grid;
+      }
+      .grid-cols-3 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .gap-4 {
+          gap: 1rem;
+      }
+      .col-span-2 {
+          grid-column: span 2 / span 2;
+      }
+      .rounded-lg {
+          border-radius: 0.5rem;
+      }
+      .text-lg {
+          font-size: 1.125rem;
+      }
+      .font-semibold {
+          font-weight: 600;
+      }
+      .text-xs {
+          font-size: 0.75rem;
+        }
+      </style>
+</head>
+<body class="bg-zinc-900 text-white font-sans">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center space-x-4">
+          <button class="text-pink-500" aria-label="All">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6.75h1.5a3 3 0 013 3v1.5m-4.5 0h4.5m0 0v6a3 3 0 01-3 3h-12a3 3 0 01-3-3v-12a3 3 0 013-3h6m3 10.5v-4.5m0 0h4.5M9 12h.008v.008H9V12z"
+              />
+            </svg>
+          </button>
+          <input
+            type="text"
+            placeholder="Search events"
+            class="bg-zinc-800 rounded-full px-4 py-2 w-64 focus:outline-none"
+          />
+        </div>
+        <button class="bg-pink-500 rounded-full p-2" aria-label="New to you">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+          </svg>
+        </button>
+      </div>
+  
+      <div class="text-4xl font-bold py-4">Your gateway to unlimited entertainment</div>
+      <p class="text-zinc-400 text-sm mb-6">
+        With our seamless streaming technology, you can effortlessly discover and enjoy content that
+        resonates with your interests.
+      </p>
+  
+      <div class="flex space-x-2 mb-6">
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">All</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">New to you</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Live</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Stand-Up</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Gaming</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Music</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Cartoons</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Challenges</button>
+        <button class="bg-zinc-800 px-4 py-2 rounded-full">Visual Arts</button>
+      </div>
+  
+      <div class="grid grid-cols-3 gap-4">
+        <div class="col-span-2 bg-zinc-800 p-4 rounded-lg"> 
+          <img src="https://placehold.co/600x400" alt="Featured content" class="rounded-lg mb-4" />
+          <div class="text-lg font-semibold">
+            Top 10 most interesting places in the world. Must visit!
+          </div>
+        </div>
+        <div class="bg-zinc-800 p-4 rounded-lg space-y-4">
+          <div>
+            <img src="https://www.youtube.com/watch?v=O4PmcP9ecE4" alt="Europe Places" class="rounded-lg" />
+            <div class="text-sm font-semibold">50 Best Places to Visit in Europe - Travel Guide</div>
+            <div class="text-xs text-zinc-400">1.5K views · 1 year ago</div>
+          </div>
+          <div>
+            <img src="https://placehold.co/200x120" alt="Music Video" class="rounded-lg" />
+            <div class="text-sm font-semibold">Vevo - Official Music Video</div>
+            <div class="text-xs text-zinc-400">2M views · 3 weeks ago</div>
+          </div>
+          <div>
+            <img src="https://placehold.co/200x120" alt="Film Festival" class="rounded-lg" />
+            <div class="text-sm font-semibold">RCM - Official Music Video (youtube)</div>
+            <div class="text-xs text-zinc-400">900K views · 7 months ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="bg-zinc-800 p-4 rounded-lg">
+      <img src="https://www.youtube.com/watch?v=cu5BZNymMzs" alt="Featured content" class="rounded-lg mb-4" />
+      <div class="text-lg font-semibold">
+        Top 10 most interesting places in the world. Must visit!
+      </div>
+    </div>
+    <div class="bg-zinc-800 p-4 rounded-lg space-y-4">
+      <div>
+        <img src="https://placehold.co/200x120" alt="Europe Places" class="rounded-lg" />
+        <div class="text-sm font-semibold">50 Best Places to Visit in Europe - Travel Guide</div>
+        <div class="text-xs text-zinc-400">1.5K views · 1 year ago</div>
+      </div>
+      <div>
+        <img src="https://placehold.co/200x120" alt="Music Video" class="rounded-lg" />
+        <div class="text-sm font-semibold">Vevo - Official Music Video</div>
+        <div class="text-xs text-zinc-400">2M views · 3 weeks ago</div>
+      </div>
+      <div>
+        <img src="https://placehold.co/200x120" alt="Film Festival" class="rounded-lg" />
+        <div class="text-sm font-semibold">RCM - Official Music Video (youtube)</div>
+        <div class="text-xs text-zinc-400">900K views · 7 months ago</div>
+      </div>
+    </div>
+  </div>
+  
+</html>

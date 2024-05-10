@@ -1,0 +1,102 @@
+import React from 'react';
+
+const MyComponent = () => (
+  <div>
+    This is MyComponent.
+  </div>
+    <!-- Your JSX code here -->    
+    export default function Widget() {
+      return (
+        <div>
+          <body className="bg-zinc-900 text-white font-sans">
+              <div className="container mx-auto px-4">
+                  
+                  <div className="flex justify-between items-center py-4">
+                      <div className="flex items-center space-x-4">
+                          <button className="text-pink-500" aria-label="Search">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6.75h1.5a3 3 0 013 3v1.5m-4.5 0h4.5m0 0v6a3 3 0 01-3 3h-12a3 3 0 01-3-3v-12a3 3 0 013-3h6m3 10.5v-4.5m0 0h4.5M9 12h.008v.008H9V12z" />
+                              </svg>                  
+                          </button>
+                          <input type="text" placeholder="Search events" className="bg-zinc-800 rounded-full px-4 py-2 w-64 focus:outline-none" />
+                      </div>
+                      <button className="bg-pink-500 rounded-full p-2" aria-label="Buy">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+                          </svg>
+                      </button>
+                  </div>
+          
+                  
+                  <div className="text-4xl font-bold py-4">
+                      Your gateway to unlimited entertainment
+                  </div>
+                  <p className="text-zinc-400 text-sm mb-6">
+                      With our seamless streaming technology, you can effortlessly discover and enjoy content that resonates with your interests.
+                  </p>
+          
+                  
+                  <div className="flex space-x-2 mb-6">
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">All</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">New to you</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Live</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Stand-Up</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Gaming</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Music</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Cartoons</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Challenges</button>
+                      <button className="bg-zinc-800 px-4 py-2 rounded-full">Visual Arts</button>
+                  </div>
+          
+                  
+                  <div className="grid grid-cols-3 gap-4">
+                      <div className="col-span-2 bg-zinc-800 p-4 rounded-lg">
+                          <img src="https://placehold.co/600x400" alt="Featured content" className="rounded-lg mb-4">
+                          <div className="text-lg font-semibold">Top 10 most interesting places in the world. Must visit!</div>
+                      </div>
+                      <div className="bg-zinc-800 p-4 rounded-lg space-y-4">
+                          <div>
+                              <img src="https://placehold.co/200x120" alt="Europe Places" className="rounded-lg">
+                              <div className="text-sm font-semibold">50 Best Places to Visit in Europe - Travel Guide</div>
+                              <div className="text-xs text-zinc-400">1.5K views · 1 year ago</div>
+                          </div>
+                          <div>
+                              <img src="https://placehold.co/200x120" alt="Music Video" className="rounded-lg">
+                              <div className="text-sm font-semibold">Vevo - Official Music Video</div>
+                              <div className="text-xs text-zinc-400">2M views · 3 weeks ago</div>
+                          </div>
+                          <div>
+                              <img src="https://placehold.co/200x120" alt="Film Festival" className="rounded-lg">
+                              <div className="text-sm font-semibold">RCM - Official Music Video (youtube)</div>
+                              <div className="text-xs text-zinc-400">900K views · 7 months ago</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </body>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="bg-zinc-800 p-4 rounded-lg">
+                  <img src="https://placehold.co/600x400" alt="Featured content" className="rounded-lg mb-4">
+                  <div className="text-lg font-semibold">Top 10 most interesting places in the world. Must visit!</div>
+              </div>
+              <div className="bg-zinc-800 p-4 rounded-lg space-y-4">
+                  <div>
+                      <img src="https://placehold.co/200x120" alt="Europe Places" className="rounded-lg">
+                      <div className="text-sm font-semibold">50 Best Places to Visit in Europe - Travel Guide</div>
+                      <div className="text-xs text-zinc-400">1.5K views · 1 year ago</div>
+                  </div>
+                  <div>
+                      <img src="https://placehold.co/200x120" alt="Music Video" className="rounded-lg">
+                      <div className="text-sm font-semibold">Vevo - Official Music Video</div>
+                      <div className="text-xs text-zinc-400">2M views · 3 weeks ago</div>
+                  </div>
+                  <div>
+                      <img src="https://placehold.co/200x120" alt="Film Festival" className="rounded-lg">
+                      <div className="text-sm font-semibold">RCM - Official Music Video (youtube)</div>
+                      <div className="text-xs text-zinc-400">900K views · 7 months ago</div>
+                  </div>
+              </div>
+          </div>
+        </div>      
+      );
+  }
